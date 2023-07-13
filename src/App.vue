@@ -1,5 +1,4 @@
 <script setup lang="ts">
-import HelloWorld from './components/HelloWorld.vue'
 import { prefix as pr } from './lib/prefixClasses'
 </script>
 
@@ -12,7 +11,6 @@ import { prefix as pr } from './lib/prefixClasses'
       <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
     </a>
   </div>
-  <HelloWorld msg="Vite + Vue" />
 </template>
 
 <style scoped></style>
